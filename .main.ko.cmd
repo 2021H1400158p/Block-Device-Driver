@@ -1,0 +1,1 @@
+cmd_/home/lab/Videos/abc/DD/main.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 -T ./scripts/module-common.lds  --build-id  -o /home/lab/Videos/abc/DD/main.ko /home/lab/Videos/abc/DD/main.o /home/lab/Videos/abc/DD/main.mod.o ;  true
